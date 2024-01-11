@@ -1,0 +1,30 @@
+#footer {
+  background-color: #e0ecdc;
+  padding: 80px 0px;
+  .footer_container {
+    max-width: 1200px;
+    margin: auto;
+    .footer_content {
+      display: flex;
+      align-items: flex-start;
+      &_inputs {
+        width: 40%;
+        .footer_img {
+          img {
+          }
+        }
+        .footer_input {
+        }
+      }
+      .footer_about {
+        width: 20%;
+      }
+      .footer_contact {
+        width: 20%;
+      }
+      .footer_follow {
+        width: 20%;
+      }
+    }
+  }
+}

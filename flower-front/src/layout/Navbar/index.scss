@@ -1,0 +1,33 @@
+#header {
+  background: rgba(16, 99, 78, 0.9);
+  min-height: 70px;
+  .header_area {
+    padding: 15px 0px;
+    .header_container {
+      max-width: 95%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .header_title {
+        h1 {
+            a{
+                color: white;
+            }
+        }
+      }
+      nav {
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          li {
+            a {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.events_card {
+  padding: 70px 45px;
+  background: #fef1e6;
+  border: 1px solid #338873;
+  &_content {
+    text-align: center;
+    h4 {
+      color: #1b745e;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    h6 {
+      font-size: 22px;
+      color: #0c5b47;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #1b745e;
+      padding-bottom: 39px;
+      font-size: 16px;
+    }
+    button {
+        background-color: #d8e3d5 !important;
+        border-color: #d8e3d5 !important;
+        color: #10634e !important;
+        padding: 8px 32px;
+    }
+  }
+}

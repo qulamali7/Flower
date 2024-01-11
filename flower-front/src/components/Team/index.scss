@@ -1,0 +1,28 @@
+#team{
+    padding: 120px 0px;
+    background-color: #fff;
+    .team_container{
+        max-width: 1200px;
+        margin: auto;
+        .team_content{
+            .team_title{
+                text-align: center;
+            }
+            .team_cards{
+                display: flex;
+                align-items: center;
+                .team_card{
+                    width: 33.3%;
+                    &_img{
+                       img{
+                        width: 100%;
+                       }
+                    }
+                    &_text{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
